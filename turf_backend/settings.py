@@ -30,6 +30,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
+    "187.77.185.21",
+    "*",
 ]
 
 
@@ -114,8 +116,8 @@ DATABASES = {
          "ENGINE": "django.db.backends.mysql",
         "NAME": "turf_db",
         "USER": "root",
-        "PASSWORD": "Arul@2004",
-        "HOST": "127.0.0.1",
+        "PASSWORD": "Adugalam@1234",
+        "HOST": "localhost",
         "PORT": "3306",
         "OPTIONS": {
             "init_command": "SET sql_mode='STRICT_TRANS_TABLES'"
