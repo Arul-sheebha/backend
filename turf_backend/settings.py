@@ -28,10 +28,9 @@ SECRET_KEY = config(
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost",
+    "api.adugalam.com",
     "127.0.0.1",
-    "187.77.185.21",
-    "*",
+    "localhost"
 ]
 
 
