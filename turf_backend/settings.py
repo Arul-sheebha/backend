@@ -25,10 +25,13 @@ SECRET_KEY = config(
     default="django-insecure-change-this-in-production"
 )
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
-    "*",
+"adugalam.com",
+"www.adugalam.com",
+"admin.adugalam.com",
+"booking.adugalam.com"
 ]
 
 
